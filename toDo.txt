@@ -1,0 +1,5 @@
+Use informative name. Wont matter if they are long.
+Dont use "LIST" keyword for any grouping they revela they its LIST structure. Better use "ACCOUNTGROUP" or "BUNCHOFGROUP".
+In case compiler complain for same name. Don't dare to miss-spell other. Just to satisfy compiler. Like "KLASS" for "CLASS".
+numbering in front of variable should be avoided.Its not that they are disinformative—they are noninformative.
+Noise words should not be use like a/the/an. 

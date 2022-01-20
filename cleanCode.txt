@@ -1,0 +1,22 @@
+chapte 2 -- Naming 
+
+
+We should use good names. name should be appealing, they should reveal the cause of their creation.
+int noOfDays;
+double amountInAccount;
+Do not refer to a grouping of accounts as an accountList unless it’s actually a List .
+The word list means something specific to programmers. If the container holding the
+accounts is not actually a List , it may lead to false conclusions. 1 So accountGroup or
+bunchOfAccounts or just plain accounts would be better.
+
+Sometimes we create problems for ourself as  compiler dont let us use same name for two variable hence we try to miss-spell one. Like klass for class.
+
+Number-series naming (a1, a2, .. aN) is the opposite of intentional naming. Such
+names are not disinformative—they are noninformative; they provide no clue to the
+author’s intention. Consider:
+public static void copyChars(char a1[], char a2[]) {
+for (int i = 0; i < a1.length; i++) {
+a2[i] = a1[i];
+}
+}
+
